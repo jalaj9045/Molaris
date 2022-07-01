@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  body{
+    background-color: #F5F5F5;
+  }
+  .for-form{
+    width: 100%;
+    height: 140vh;
+    /* background-color: aqua; */
+  }
+  .half--background{
+    width: 100%;
+    height: 50vh;
+    background: url(../Home/Assest/banner.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+  .Form--box{
+    width: 70%;
+    height: 120vh;
+    background-color: #fff;
+    padding: 30px 50px;
+    margin-top: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+ .form--heading{
+    padding: 5px 5px;
+    border-bottom: 1px solid #E8E8E8;
+ }
+ .my--form{
+    width: 100%;
+    height: auto;
+    /* background-color: brown; */
+
+ }
+ .contact--form{
+    width: 70%;
+    height: auto;
+    /* background-color: yellow; */
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 10px;
+ }
+label{
+    font-size: 16px;
+}
+ .submit--btn:hover {
+    background-color: crimson;
+    outline: none;
+    border: none;
+    color: #fff;
+    transition: .5s ease-in-out all;
+  }
+  
+  .submit--btn {
+    width: 135px;
+    height: 50px;
+    background-color: crimson;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-weight: 600;
+  }
+  .setmargin{
+    margin-top: 10px;
+  }
+  .Contact--largecard{
+    width: 100%;
+    height: auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 30px;
+    margin-top: 20px;
+}
+.contact--Box{
+    width: 100%;
+      display: flex;
+  }
+  .Contact--numbs{
+    width: 50%;
+  }
+  .number{
+    font-size: 18px;
+  }
+
+
+
+
+
+
+
+  /* For Responsive use media querry  */
+  @media (max-width: 952px){
+    .for-form {
+        width: 100%;
+        height: auto;
+        background-color: aqua;
+    }
+    .Form--box {
+        width: 100%;
+        height: 130vh;
+        background-color: #fff;
+        padding: 16px 10px;
+        margin-top: 0px;
+        box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    }
+    .half--background {
+      width: 100%;
+  height: auto;
+  display: block;
+  }
+  .Contact--largecard {
+    width: 100%;
+    height: auto;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    padding: 10px;
+    margin-top: 0px;
+    text-align: center;
+}
+.contact--Box {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+.Contact--numbs {
+  width: 100%;
+}
+.contact--form {
+  width: 100%;
+  height: auto;
+  /* background-color: yellow; */
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding: 10px;
+}
+  }
